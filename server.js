@@ -36,6 +36,22 @@ const rooms = [
       },
     ],
   },
+    {
+    name: "Premium",
+    seats: 170,
+    amenities: "A/C, TV, WiFi Access (Free),  Daily Newspaper, Private  Wardrobe, Sit Out Lawn, Coffee/Tea maker, Refrigerator, Electric Heaters, Sofa, Sitting Area",
+    price: 8000,
+    room_id: "47458",
+    bookingDetails: [
+      {
+        customer_name: "Vetrivel",
+        date: "28/06/2022",
+        start: "09:00 am",
+        end: "10:00 pm",
+        status: "Confirmed",
+      },
+    ],
+  },
 ];
 
 app.get("/", (req, res) => {
